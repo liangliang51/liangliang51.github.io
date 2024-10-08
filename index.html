@@ -10,7 +10,7 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #bbd4b9;
         }
         .container {
             width: 80%;
@@ -44,16 +44,19 @@
         }
         header #branding h1 {
             margin: 0;
+            font-family: 'Times New Roman', Times, serif; /* 修改字型 */
+            font-size: 40px;
         }
         header nav {
             float: right;
             margin-top: 10px;
+            
         }
         .showcase {
             min-height: 400px;
-            background: url('llll.jpeg') no-repeat 0 -400px;
+            background: url('llll.jpeg') no-repeat center center/cover ;
             text-align: center;
-            color: #9ac8af;
+            color: #041009;
         }
         .showcase h1 {
             margin-top: 100px;
@@ -65,7 +68,7 @@
         }
         .main-content {
             padding: 20px;
-            background: #fff;
+            background: #ffffff;
         }
         .main-content h2 {
             color: #333;
@@ -73,11 +76,20 @@
         .main-content p {
             color: #666;
         }
+        .image-grid {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .image-grid img {
+            width: 32%;
+            height: auto;
+        }
         footer {
             padding: 20px;
             margin-top: 20px;
-            color: #fff;
-            background-color: #333;
+            color: #f5f3f3;
+            background-color: #041f03;
             text-align: center;
         }
     </style>
@@ -116,10 +128,15 @@
         </ul>
         <h2>經歷</h2>
         <p>我曾在梁氏集團擔任大女兒，負責當大小姐。在此期間，我學到了怎麼教訓弟弟妹妹。</p>
+        <div class="image-grid">
+            <img src="1.jpg" alt="圖片1">
+            <img src="2.jpg" alt="圖片2">
+            <img src="3.jpg" alt="圖片3">
+        </div>
     </section>
 
     <footer>
-        <p>聯絡我: sfihoiencjdo</p>
+        <p>EMAIL: <a href='a9836774998@gmail.com'>a9836774998@gmail.com</a></p>
         <p>電話:0886789976</p>
     </footer>
 </body>
